@@ -21,6 +21,9 @@ fun main(args: Array<String>) {
     exerciseFor(2020)
     exerciseExtendedForLoop(3)
     exerciseExtendedForLoop(10)
+    exerciseWhile(15)
+    //exerciseDoWhile()
+    exerciseBreakAndContinue()
 }
 
 fun exerciseIf(hasEggs: Boolean, hasBacon: Boolean): Int {
@@ -106,4 +109,36 @@ fun exerciseExtendedForLoop(nb: Int) {
         }
         print("|\n")
     }
+}
+
+fun exerciseWhile(nb: Int) {
+    var i = 0
+    while (i < nb) {
+        if (i % 7 == 0) {
+            println(i)
+        }
+        i++
+    }
+}
+
+fun exerciseDoWhile() {
+    val usernames = hashSetOf("john", "bob", "alice")
+
+    do {
+        print("Enter a name: ")
+        val input = readLine()?:""
+    } while (!usernames.add(input))
+    println(usernames)
+}
+
+fun exerciseBreakAndContinue() {
+    do {
+        print("Enter your age: ")
+        val input = readLine()?: "0"
+        if(input == "stop") {
+            break
+        }
+        val age = input.toInt()
+        println(if(age > 18) "Welcome !" else "You are not allowed")
+    } while (true) //vomiting
 }
