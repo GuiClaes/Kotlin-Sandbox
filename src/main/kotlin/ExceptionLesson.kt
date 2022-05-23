@@ -1,6 +1,6 @@
 import java.lang.NumberFormatException
 
-fun main (args: Array<String>) {
+fun main(args: Array<String>) {
     raiseException()
     //throwRuntime()
     pratice("5")
@@ -14,7 +14,7 @@ fun main (args: Array<String>) {
     exercise("Apple", "None")
 }
 
-fun raiseException () {
+fun raiseException() {
     val test = "Test"
     try {
         println(test.toInt())
@@ -26,7 +26,7 @@ fun raiseException () {
     }
 }
 
-fun throwRuntime () {
+fun throwRuntime() {
     val test = "Test"
     try {
         println(test.toInt())
@@ -35,7 +35,7 @@ fun throwRuntime () {
     }
 }
 
-fun pratice (input: String?) {
+fun pratice(input: String?) {
     try {
         println(input?.toInt()?.times(5)?:"Null input")
     } catch (e: NumberFormatException) {
@@ -43,7 +43,7 @@ fun pratice (input: String?) {
     }
 }
 
-fun praticeKM (km: String?) {
+fun praticeKM(km: String?) {
     try {
         println(km?.toDouble()?.times(0.62)?:"No way")
     } catch (e: NumberFormatException) {
@@ -51,7 +51,7 @@ fun praticeKM (km: String?) {
     }
 }
 
-fun exercise (product: String?, quantity: String?) {
+fun exercise(product: String?, quantity: String?) {
     try {
         println("Total for product $product is: ${quantity?.toDouble()?.times(9.99)}.")
     } catch (e: NumberFormatException) {

@@ -27,13 +27,13 @@ fun main (args: Array<String>) {
     exerciseMapFunction()
 }
 
-fun practiceList () {
+fun practiceList() {
     val favoriteAnimals = listOf("Dogs", "Cats", "Wolves")
     println(favoriteAnimals.size)
     println(favoriteAnimals[1])
 }
 
-fun practiceArrayList () {
+fun practiceArrayList() {
     val customers: ArrayList<String> = arrayListOf()
     customers.add("David")
     customers.add("Chris")
@@ -44,7 +44,7 @@ fun practiceArrayList () {
     println(customers)
 }
 
-fun exerciseList () {
+fun exerciseList() {
     val items = arrayListOf("laptop", "mouse", "pen", "paper", "mug", "phone")
     val removedItems = listOf("pen", "paper", "mug", "phone")
 
@@ -52,7 +52,7 @@ fun exerciseList () {
     println(items)
 }
 
-fun exerciseListFunction () {
+fun exerciseListFunction() {
     val animals = arrayListOf("lion", "zebra", "chimp", "elephant")
     animals.add("panda")
     println(animals)
@@ -61,7 +61,7 @@ fun exerciseListFunction () {
     println(animals.containsAll(listOf("elephant", "giraffe")))
 }
 
-fun exerciseSet () {
+fun exerciseSet() {
     val customers = hashSetOf("David", "Chris")
     customers.add("Francois")
     println(customers)
@@ -69,7 +69,7 @@ fun exerciseSet () {
     println(customers)
 }
 
-fun exerciseSetFunction () {
+fun exerciseSetFunction() {
     val acceptedColors = hashSetOf("white", "black", "grey")
     var myColors = hashSetOf("blue", "red", "black", "green")
     myColors.retainAll(acceptedColors)
@@ -81,7 +81,7 @@ fun exerciseSetFunction () {
     println(myColors)
 }
 
-fun exerciseMapFunction () {
+fun exerciseMapFunction() {
     val attendance = hashMapOf(Pair("23 Sept", 2837), Pair("24 Sept", 3726), Pair("25 Sept", 6253))
     attendance["26 Sept"] = 6000
     val peopleOn25 = attendance["25 Sept"]?:0
