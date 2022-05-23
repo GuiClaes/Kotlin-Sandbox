@@ -69,7 +69,7 @@ fun doMathematicalExercise() {
 
 fun doExerciseElvisAndAssertions() {
     val price = 29.99
-    val nbProducts :Int?
+    val nbProducts: Int?
     if(Random.nextInt(2) == 0) {
         nbProducts = Random.nextInt(50)
     } else {

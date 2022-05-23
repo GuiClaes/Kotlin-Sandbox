@@ -19,7 +19,7 @@ fun printRabbit(){
     println(body);
 }
 
-fun printTotalPrice(client:String, nbProducts:Int, price:Int) {
+fun printTotalPrice(client: String, nbProducts: Int, price: Int) {
     println("$client want to buy $nbProducts which cost $price per unit. This will cost her ${price*nbProducts} bucks.")
 }
 
