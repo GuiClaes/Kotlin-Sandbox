@@ -1,3 +1,5 @@
+package exercise.lesson
+
 fun main (args: Array<String>) {
     val nameAndAge = getNameAndAge()
     println(nameAndAge)

@@ -1,3 +1,5 @@
+package exercise.lesson
+
 import java.lang.NumberFormatException
 
 fun main(args: Array<String>) {

@@ -1,3 +1,5 @@
+package exercise.lesson
+
 import java.time.LocalDate
 
 const val AUTHOR = "GuiClaes"

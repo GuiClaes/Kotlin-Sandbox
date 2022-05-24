@@ -1,3 +1,5 @@
+package exercise.lesson
+
 const val pi = 3.14159
 
 fun main(args: Array<String>) {

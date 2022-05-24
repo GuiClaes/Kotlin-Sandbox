@@ -1,3 +1,5 @@
+package exercise.lesson
+
 fun main(args: Array<String>) {
     assert(exerciseIf(true, false) == 60)
     assert(exerciseIf(false, true) == 0)
