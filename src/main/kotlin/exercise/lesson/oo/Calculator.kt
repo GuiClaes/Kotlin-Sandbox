@@ -1,4 +1,4 @@
-package exercise.lesson.`object`
+package exercise.lesson.oo
 
 class Calculator {
     var total: Double = 0.0

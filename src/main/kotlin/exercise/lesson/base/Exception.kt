@@ -1,4 +1,4 @@
-package exercise.lesson
+package exercise.lesson.base
 
 import java.lang.NumberFormatException
 

@@ -1,4 +1,4 @@
-package exercise.lesson.`object`
+package exercise.lesson.oo
 
 class UserAccount {
 

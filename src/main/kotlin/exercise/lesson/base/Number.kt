@@ -1,4 +1,4 @@
-package exercise.lesson
+package exercise.lesson.base
 
 const val pi = 3.14159
 

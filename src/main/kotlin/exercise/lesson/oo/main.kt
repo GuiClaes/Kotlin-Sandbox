@@ -1,4 +1,4 @@
-package exercise.lesson.`object`
+package exercise.lesson.oo
 
 fun main(args: Array<String>) {
     val calculator = Calculator()

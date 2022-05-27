@@ -1,4 +1,4 @@
-package exercise.lesson
+package exercise.lesson.base
 
 fun main(args: Array<String>) {
     assert(exerciseIf(true, false) == 60)
